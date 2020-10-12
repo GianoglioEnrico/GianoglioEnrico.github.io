@@ -16,6 +16,11 @@ h6 {
   color: #1e1e1e;
 }
 
+.aboutme-p{
+  font-size: 1 rem;
+  font-weight: 500;
+}
+
 a {
   color: white;
   transition: all 0.5s ease-in-out;
@@ -94,7 +99,7 @@ a:hover.etiqa-link{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 .overlay-mf {
@@ -225,7 +230,7 @@ a:hover.etiqa-link{
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px rgba(209, 209, 13, 0.726);
   transition: all 500ms ease;
 }
 
@@ -412,8 +417,10 @@ a:hover.etiqa-link{
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
-  padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  /* padding-top: 1.563rem;
+  padding-bottom: 1.563rem; */
+  padding-bottom: 5px;
+  padding-top:5px;
   
 }
 
@@ -623,14 +630,14 @@ a:hover.etiqa-link{
 }
 
 .intro .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .9;
+  /* opacity: .9; */
 }
 
 .intro .intro-title {
@@ -1083,6 +1090,7 @@ a:hover.etiqa-link{
 footer {
   text-align: center;
   color: #fff;
+  
   /* padding-bottom: 4rem; */
 }
 
