@@ -630,14 +630,14 @@ a:hover.etiqa-link{
 }
 
 .intro .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  /* opacity: .9; */
+  opacity: .9;
 }
 
 .intro .intro-title {
